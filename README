@@ -1,16 +1,28 @@
+# ------------- Speaker Analyzer ---------------
+# --------------- Ice Version ------------------
+## O Speaker Analyzer é um programa para testes
+# do microfone e dos auto-falates. Esta versão
+# possibilita que a análise seja realizada em 
+# qualquer plataforma que suporte python.
+# ----------------------------------------------
 
-  libs geradas a partir da própia aplicação:
-		wav
-		toneGenerator
-		record
-		analisadorFreq
+libs geradas a partir da própia aplicação:
+	wav
+	toneGenerator
+	record
+	analisadorFreq
 
-	Dependências:
-		pyaudio					#download from: http://people.csail.mit.edu/hubert/pyaudio/
-		numpy					  #download from: http://sourceforge.net/projects/numpy/files/NumPy/ (http://new.scipy.org/download.html)
-		scipy-requisits	#execute: sudo apt-get install python python-dev libatlas-base-dev gcc gfortran g++ (consulte a documentação do scipy para obter as dependências atualizadas)
-		scipy					  #download from: http://sourceforge.net/projects/scipy/files/scipy/
-		matplotlib			#download from: http://sourceforge.net/projects/matplotlib/files/matplotlib/ (http://matplotlib.sourceforge.net/users/installing.html)
+Dependências:
+	pyaudio	
+		#download from: http://people.csail.mit.edu/hubert/pyaudio/
+	numpy
+		#download from: http://sourceforge.net/projects/numpy/files/NumPy/ (http://new.scipy.org/download.html)
+	scipy-requisits	
+		#execute: sudo apt-get install python python-dev libatlas-base-dev gcc gfortran g++ (consulte a documentação do scipy para obter as dependências atualizadas)
+	scipy
+		#download from: http://sourceforge.net/projects/scipy/files/scipy/
+	matplotlib
+		#download from: http://sourceforge.net/projects/matplotlib/files/matplotlib/ (http://matplotlib.sourceforge.net/users/installing.html)
 	
-
+	
 	O volume de saída deve estar em 50% e a entrada sem amplificação.
