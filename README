@@ -13,12 +13,12 @@ libs geradas a partir da própia aplicação:
 	analisadorFreq
 
 Dependências:
+	scipy-requisits	
+		#execute: sudo apt-get install python python-dev libatlas-base-dev libportaudio2 gcc gfortran g++ (consulte a documentação do scipy para obter as dependências atualizadas)
 	pyaudio	
 		#download from: http://people.csail.mit.edu/hubert/pyaudio/
 	numpy
 		#download from: http://sourceforge.net/projects/numpy/files/NumPy/ (http://new.scipy.org/download.html)
-	scipy-requisits	
-		#execute: sudo apt-get install python python-dev libatlas-base-dev gcc gfortran g++ (consulte a documentação do scipy para obter as dependências atualizadas)
 	scipy
 		#download from: http://sourceforge.net/projects/scipy/files/scipy/
 	matplotlib
